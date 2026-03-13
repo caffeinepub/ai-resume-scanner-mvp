@@ -1,0 +1,11 @@
+{
+  "frontend/src/App.tsx": "Main application component with tabbed interface for General Analysis, Job Matching, and Dashboard views, wrapped in ThemeProvider with header and footer.",
+  "frontend/src/components/Header.tsx": "Application header with logo, title, and theme toggle button for light/dark mode switching.",
+  "frontend/src/components/Footer.tsx": "Footer component displaying copyright notice and attribution link to caffeine.ai with heart icon.",
+  "frontend/src/components/GeneralAnalysis.tsx": "Resume analysis form with text input for resume content, displaying strengths, weaknesses, and overall score with progress visualization, proper loading states, and user guidance for manual text entry.",
+  "frontend/src/components/JobMatching.tsx": "Job matching interface with dual text inputs for resume and job description, displaying match score, missing keywords, and recommendations with loading states and user guidance for text entry.",
+  "frontend/src/components/Dashboard.tsx": "Analytics dashboard showing aggregated statistics, common strengths, match scores, and ranked matches from all analyses.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for backend integration including analyzeGeneral and analyzeMatch mutations with proper error handling, query invalidation, and staleTime configuration for getAllStrengths, getMatchScores, and getRankedMatches queries.",
+  "frontend/src/index.css": "Global styles with OKLCH color system featuring purple/blue primary colors for both light and dark modes with enhanced contrast and modern aesthetic.",
+  "frontend/src/hooks/useEditor.ts": "Placeholder initialization function for editor setup called from main entry point."
+}
